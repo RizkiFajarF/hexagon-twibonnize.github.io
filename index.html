@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Template Pembangunan Desa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Upload 3 Foto Pembangunan Desa</h2>
+
+<input type="file" id="foto1" accept="image/*"><br>
+<input type="file" id="foto2" accept="image/*"><br>
+<input type="file" id="foto3" accept="image/*"><br>
+
+<button onclick="generate()">Generate</button>
+<br><br>
+
+<canvas id="canvas" width="1080" height="1080"></canvas>
+<br>
+<button id="download" download="pembangunan-desa.png">Download</button>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

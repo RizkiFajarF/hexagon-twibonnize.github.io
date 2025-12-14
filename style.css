@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  background: #f5f7fa;
+  color: #1f2937;
+}
+
+/* ===== CONTAINER ===== */
+body {
+  max-width: 480px;
+  margin: auto;
+}
+
+/* ===== TITLE ===== */
+h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* ===== INPUT FILE ===== */
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Generate Button */
+button:first-of-type {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+button:first-of-type:hover {
+  background: #1e40af;
+}
+
+/* Download Button */
+#download {
+  background: #16a34a;
+  color: #ffffff;
+  margin-top: 14px;
+}
+
+#download:hover {
+  background: #15803d;
+}
+
+/* ===== CANVAS ===== */
+canvas {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== DESKTOP IMPROVEMENT ===== */
+@media (min-width: 768px) {
+  body {
+    max-width: 720px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
